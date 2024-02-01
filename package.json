@@ -1,0 +1,37 @@
+{
+  "name": "rca-farm",
+  "version": "1.0.0",
+  "description": "learning project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rca-tuto/year-one/rca-farm.git"
+  },
+  "keywords": [
+    "learning",
+    "js",
+    "crus"
+  ],
+  "author": "rca-class c",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rca-tuto/year-one/rca-farm/issues"
+  },
+  "homepage": "https://gitlab.com/rca-tuto/year-one/rca-farm#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  }
+}
